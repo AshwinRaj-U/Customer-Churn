@@ -1,13 +1,14 @@
-PROBLEM STATEMENT:  
+# PROBLEM STATEMENT:  
+
 An E Commerce company provider is facing a lot of competition in the current market and it has become a 
 challenge to retain the existing customers in the current situation. Hence, the company wants to develop a 
 model through which they can do churn prediction of the accounts and provide segmented offers to the 
 potential churners. In this company, account churn is a major thing because 1 account can have multiple 
 customers. hence by losing one account the company might be losing more than one customer. You have 
 been assigned to develop a churn prediction model for this company and provide business recommendations 
-on the campaign. 
+on the campaign.
 
-NEED OF THE PROJECT: 
+# NEED OF THE PROJECT: 
 This study is vital for the client to gain a deeper understanding of the customer lifecycle, uncover churn 
 patterns, and pinpoint the key drivers behind customer attrition. With these insights, the company can make 
 data-driven decisions to proactively retain similar customer profiles in the future. 
@@ -16,7 +17,7 @@ several users—making churn prevention even more critical.
 By identifying the factors that contribute to churn early, the company can design strategic retention 
 initiatives before the customer disengages completely. 
 
-UNDERSTANDING BUSINESS OPPORTUNITY: 
+# UNDERSTANDING BUSINESS OPPORTUNITY: 
 This e-commerce company operates on a model where users create individual profiles to make purchases 
 online. The platform is widely appreciated for its round-the-clock accessibility and global reach—customers 
 can shop at any time and have products delivered from virtually anywhere. 
@@ -29,13 +30,13 @@ account represents ongoing potential revenue, as customers are likely to continu
 over time.
 
 
-MODEL BUILDING: 
+# MODEL BUILDING: 
 Our churn prediction models are trained on two distinct datasets: 
 Actual Data: The original dataset with natural class imbalance 
 Oversampled Data: A balanced version created using SMOTE to enhance the model’s ability to detect 
 churn cases 
 
-MODEL CAN MAKE WRONG PREDICTIONS AS: 
+# MODEL CAN MAKE WRONG PREDICTIONS AS: 
 False Positive: The model predicts the customer will churn, but in reality, customer does not.  
 False Negative: The model predicts the customer will not churn, but in reality, customer does.  
 We aim to maximize recall, ensuring the model effectively identifies customers at risk of churn. This 
@@ -43,7 +44,7 @@ approach prioritizes capturing true churn cases, even if it results in a few fal
 and targeted retention efforts 
 
 
-PARAMETRIC MODELS: 
+# PARAMETRIC MODELS: 
 • Logistic Regression: Assumes the data has a linear pattern, features aren’t too closely related 
 (no multicollinearity), and sometimes expects errors to follow a normal distribution. 
 • Naive Bayes: Assumes all features are independent from each other once the class label is 
@@ -53,7 +54,7 @@ Gaussian distribution with a shared covariance matrix. It seeks linear combinati
 that best separate the classes by maximizing the ratio of between-class variance to within-class 
 variance. 
 
-NON-PARAMETRIC MODELS. 
+# NON-PARAMETRIC MODELS. 
 • KNNClassifier: Classifies based on the majority label among nearby data points. 
 • DecisionTree: Splits data using feature thresholds for pure class outcomes.  
 • BaggingClassifier: Combines predictions from multiple best with unstable base learners like 
@@ -66,7 +67,8 @@ improve learning.
 computation. 
 
 
-BUSINESS INSIGHTS: 
+# BUSINESS INSIGHTS: 
+
 • City Tier: Tier 3 cities have the highest churn (21.4%), Tier 1 the lowest (14.5%). 
 • Payment Method: Cash on Delivery and E-Wallet users churn more than card users. 
 • Account Segment: Regular Plus has the most customers—but also the highest churn. 
@@ -94,7 +96,7 @@ reason for less Tenure.
 • Although only 4.62% of customers belong to the Regular segment, they tend to have a longer tenure 
 compared to other segments. Their engagement with customer care is also relatively better. 
 
-BUSINESS RECOMMENDATIONS: 
+# BUSINESS RECOMMENDATIONS: 
 Tenure: 
 • Customers with a tenure of less than five months are at a higher risk of churning, especially 
 during their early post-signup period.  
