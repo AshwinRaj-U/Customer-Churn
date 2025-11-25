@@ -145,7 +145,7 @@ Customer distribution analysis reveals a significant concentration in Tier 1 cit
 cities remain underpenetrated specifically in Tier 2. 
 To boost overall customer volume and tap into emerging markets, the business should prioritize 
 customer acquisition in these regions by performing:  
-* Regional Offers. 
-* Targeted Marketing. 
-* Customer Referral Programs. 
-* Expanding Delivery Network.
+  * Regional Offers. 
+  * Targeted Marketing. 
+  * Customer Referral Programs. 
+  * Expanding Delivery Network.
